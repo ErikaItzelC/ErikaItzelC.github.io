@@ -1,0 +1,28 @@
+<DOCTYPE html>
+    <head>
+        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+      </head>
+      <body>
+          <a-scene>
+                <a-entity geometry="primitive: box; width:3"
+                material="color: red"
+                position="0 2 0"></a-entity>
+              
+            <a-box position="0 3 0" width="1" color="#EB1E88" height="1" depth="1">
+                <a-circle color="#00000"
+                          radius="0.1"
+                          side="double"
+                          position="0.25 0.1 0.51">
+                </a-circle>
+                <a-circle color="#00000"
+                radius="0.1"
+                side="double"
+                position="-0.25 0.1 0.51">
+               </a-circle>
+            </a-box>
+             <a-plane rotation="90 0 0" side="double" width="10" height="10" color="#EF2D5E"></a-plane>
+             <a-sky color="#defdfe"></a-sky>
+             
+          </a-scene>
+      </body>
+</DOCTYPE>
